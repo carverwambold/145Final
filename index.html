@@ -7,11 +7,8 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Rubik+Dirt&display=swap" rel="stylesheet">
 </head>
 <body>
-    <main>
-        <h1>Welcome to My Web Page</h1>
-        <p>This is a basic HTML page.</p>
-    </main>
-    <header class="hstack">
+    
+    <header class="hstack header">
         <a href="index.html" class="logo">
             <img src="images/logos/outdoor-adventure-logo-black.svg" alt="Logo">
         </a>
@@ -22,5 +19,35 @@
             <a href="pages/meet-our-team.html" class="nav-item" id="nav-team">Our Team</a>
         </nav>
     </header>
+    <main>
+        <div class="hstack">
+            <a class = "homeItem" href = "index.html">
+                <img src="images/home-images/about.jpeg" alt="About Us">
+                <h2>About Us</h2>
+            </a>
+            <a class = "homeItem" href = "pages/meet-our-team.html">
+                <img src="images/home-images/team.jpeg" alt="Team">
+                <h2>Meet Our Team</h2>
+            </a>
+            <div class = "homeItem">
+                <img src="images/home-images/rentals.jpeg" alt="Rentals">
+                <h2>Rentals</h2>
+            </div>
+        </div>
+        <div class="hstack">
+            <div class = "homeItem">
+                <img src="images/home-images/tours.jpeg" alt="Tours">
+                <h2>Tours</h2>
+            </div>
+            <a class = "homeItem" href = "pages/classes.html">
+                <img src="images/home-images/classes.jpeg" alt="Classes">
+                <h2>Classes</h2>
+            </a>
+            <div class = "homeItem">
+                <img src="images/home-images/store.jpeg" alt="Store">
+                <h2>Store</h2>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
